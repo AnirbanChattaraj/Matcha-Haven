@@ -1,0 +1,76 @@
+ 
+    :root{
+      --c1:#F1F3E0;
+      --c2:#D2DCB6;
+      --c3:#A1BC98;
+      --c4:#778873;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+    body{background:var(--c1);color:#333;}
+    header{background:var(--c3);padding:15px;text-align:center;color:white;font-weight:bold;}
+    nav{background:var(--c4);padding:10px;text-align:center;}
+    nav a{color:white;text-decoration:none;margin:0 10px;font-size:14px;}
+    .hero{text-align:center;padding:40px 20px;}
+    .hero h1{color:var(--c4);margin-bottom:10px;}
+    .hero p{color:#555;font-size:15px;}
+    .section{padding:20px;text-align:center;background:var(--c2);margin:10px;border-radius:8px;}
+    footer{
+      background:var(--c4);
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:20px;
+      font-size:14px;
+      line-height:1.6;
+    }
+    /* Enhanced Product Card Styles */
+  .product-card {
+    background: #F1F3E0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #D2DCB6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+  }
+
+  /* Enhanced Testimonial Styles */
+  .testimonial {
+    background: #D2DCB6;
+    padding: 25px;
+    border-radius: 20px;
+    border-left: 6px solid #778873;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+    font-style: italic;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .testimonial:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.15);
+  }
+  /* Fade-in Scroll Animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Glassmorphism Optional Effect */
+  .glass {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  }
