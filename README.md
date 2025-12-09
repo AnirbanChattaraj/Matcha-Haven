@@ -70,4 +70,4 @@ JavaScript (Vanilla JS)
 
 Preview>>https://anirbanchattaraj.github.io/Matcha-Haven/
 
-Author>>
+Author>>Anirban Chattaraj
