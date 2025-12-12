@@ -3,7 +3,7 @@
 A clean, calming, and informative webpage about Matcha, built using HTML, CSS, and JavaScript.
 This project showcases a minimalist design with soft natural colors, smooth layout, and organized sections to educate users about matcha, its benefits, types, brewing methods, and more.
 
-🌿 Features
+🌿 Features:
 ✔ Elegant & Calm UI
 
 Inspired by natural matcha tones using a custom palette:
