@@ -60,7 +60,7 @@ Organized section structure
 
 External CSS and JS support
 
-🛠 Technologies Used
+🛠 Technologies Used:-
 
 HTML5
 
